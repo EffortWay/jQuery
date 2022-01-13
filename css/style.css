@@ -1,0 +1,13 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.div-con{
+	width: 700px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.div-connect h3{
+	border: 1px #000 solid;
+	margin-bottom: 20px;
+}
