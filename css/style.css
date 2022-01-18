@@ -2,26 +2,23 @@
 	padding: 0;
 	margin: 0;
 }
-.div-con{
-	width: 700px;
-	margin-top: 50px;
-	margin-left: 100px;
+.item-head {
+	display: flex;
+	align-items: center;
+	background: #d8d8d8;
+	transition: .5s;
 }
-.div-header {
-    background-color: #d1d1d1;
-    margin-bottom: 40px;
+.item-head:hover {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
 }
-
-img {
-    float: right;
-    padding-top: 20px;
-    padding-right: 20px;
+.item-head h3 {
+	flex: 1;
+	padding: 30px 20px;
 }
-.div-connect h3{
-	border: 1px #000 solid;
-	padding: 20px 0 20px 20px;
-	background-color: #d1d1d1;
-}
-.div-connect p{
-	padding-left: 20px;
+.item-collepse {
+	background: #efefef;
+	margin-bottom: 30px;
+	display: none;
 }
